@@ -4,7 +4,7 @@
 #
 Name     : R-highr
 Version  : 0.6
-Release  : 16
+Release  : 17
 URL      : http://cran.r-project.org/src/contrib/highr_0.6.tar.gz
 Source0  : http://cran.r-project.org/src/contrib/highr_0.6.tar.gz
 Summary  : Syntax Highlighting for R Source Code
@@ -36,6 +36,7 @@ mkdir -p %{buildroot}/usr/lib64/R/library
 R CMD INSTALL --install-tests --build  -l %{buildroot}/usr/lib64/R/library highr
 %{__rm} -rf %{buildroot}%{_datadir}/R/library/R.css
 %check
+export LANG=C
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost
