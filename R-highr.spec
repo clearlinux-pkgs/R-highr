@@ -4,13 +4,17 @@
 #
 Name     : R-highr
 Version  : 0.6
-Release  : 18
+Release  : 19
 URL      : http://cran.r-project.org/src/contrib/highr_0.6.tar.gz
 Source0  : http://cran.r-project.org/src/contrib/highr_0.6.tar.gz
 Summary  : Syntax Highlighting for R Source Code
 Group    : Development/Tools
 License  : GPL-2.0
+Requires: R-testit
+Requires: R-stringr
 BuildRequires : R-knitr
+BuildRequires : R-stringr
+BuildRequires : R-testit
 BuildRequires : clr-R-helpers
 
 %description
