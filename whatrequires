@@ -1,0 +1,23 @@
+# This file contains recursive sources that require this package
+R-DAAG
+R-NMF
+R-Sleuth2
+R-bayesplot
+R-brms
+R-broom
+R-caret
+R-doRNG
+R-fitdistrplus
+R-ggjoy
+R-ggridges
+R-klaR
+R-modelr
+R-mvoutlier
+R-pkgmaker
+R-questionr
+R-recipes
+R-rngtools
+R-robCompositions
+R-rstanarm
+R-shinystan
+R-tidyverse
