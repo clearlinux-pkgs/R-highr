@@ -4,7 +4,7 @@
 #
 Name     : R-highr
 Version  : 0.7
-Release  : 50
+Release  : 51
 URL      : https://cran.r-project.org/src/contrib/highr_0.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/highr_0.7.tar.gz
 Summary  : Syntax Highlighting for R Source Code
