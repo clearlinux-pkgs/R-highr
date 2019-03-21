@@ -2,5 +2,13 @@
 R-BayesFactor
 R-DAAG
 R-MALDIquant
+R-Sleuth2
 R-broom
 R-cubature
+R-dimRed
+R-janitor
+R-knitr
+R-lme4
+R-phylobase
+R-robCompositions
+R-xtable
